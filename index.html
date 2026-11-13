@@ -1,7 +1,278 @@
 <!DOCTYPE html>
-<html lang="en-AU"><head><meta charset="utf-8"><title>Autofice</title>
-<meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="0;url=https://autofice.com.au/">
-<link rel="canonical" href="https://autofice.com.au/">
-<script>location.replace('https://autofice.com.au'+location.pathname+location.search+location.hash);</script>
-</head><body><p>We’ve moved to <a href="https://autofice.com.au/">autofice.com.au</a>.</p></body></html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bright Front Studio | Websites for Australian small businesses, built and looked after</title>
+<meta name="description" content="Bright Front designs, builds and looks after websites for Australian small businesses. Fast, mobile-first sites that bring in enquiries, with care plans so it never goes stale.">
+<link rel="canonical" href="https://brightfrontstudio.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://brightfrontstudio.com/">
+<meta property="og:title" content="Bright Front Studio | Websites built and looked after">
+<meta property="og:description" content="We design, build and look after websites for Australian small businesses.">
+<meta property="og:image" content="https://brightfrontstudio.com/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1B3FD1">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/archivo@5.3.0/files/archivo-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Bright Front Studio","url":"https://brightfrontstudio.com/","email":"info@brightfrontstudio.com","description":"Website design, builds and care plans for Australian small businesses.","areaServed":{"@type":"Country","name":"Australia"},"logo":"https://brightfrontstudio.com/assets/icon-512.png"}</script>
+<style>
+@font-face{font-family:Archivo;src:url(https://cdn.jsdelivr.net/npm/@fontsource-variable/archivo@5.3.0/files/archivo-latin-standard-normal.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+:root{--blue:#1B3FD1;--blue-d:#122C9C;--sun:#FFC23D;--paper:#FCFBF8;--ink:#1B1E2B;--sky:#E6ECFF;--muted:#575C70;--line:#E3E1DA}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Archivo,system-ui,sans-serif;font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+h1,h2,h3{font-stretch:125%;font-weight:800;letter-spacing:-.02em;line-height:1.02;margin:0}
+h1{font-size:clamp(38px,4.6vw,66px)}
+h2{font-size:clamp(32px,4vw,52px)}
+h3{font-size:22px;letter-spacing:-.01em;line-height:1.15}
+p{margin:0}
+.lede{font-size:20px;color:var(--muted);max-width:34em}
+.btn{display:inline-flex;align-items:center;gap:10px;font:inherit;font-weight:700;font-size:17px;text-decoration:none;border-radius:999px;padding:15px 26px;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s}
+.btn-blue{background:var(--blue);color:#fff}.btn-blue:hover{background:var(--blue-d)}
+.btn-line{border-color:var(--ink);color:var(--ink);background:transparent}.btn-line:hover{background:var(--ink);color:#fff}
+
+/* header */
+.hdr{position:sticky;top:0;z-index:20;background:rgba(252,251,248,.92);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+.hdr.s{border-color:var(--line)}
+.hdr .wrap{display:flex;align-items:center;gap:28px;height:76px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-stretch:125%;font-weight:800;font-size:21px;letter-spacing:-.02em}
+.logo img{width:34px;height:34px}
+.hdr nav{display:flex;gap:26px;margin-left:auto}
+.hdr nav a{text-decoration:none;font-weight:600;font-size:16px;color:var(--muted)}.hdr nav a:hover{color:var(--ink)}
+.hdr .btn{padding:11px 20px;font-size:15px}
+
+/* hero: the shopfront */
+.hero{padding:64px 0 96px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:56px;align-items:center}
+.hero p.lede{margin:28px 0 36px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .note{margin-top:22px;font-size:15px;color:var(--muted)}
+.shop{position:relative;padding-top:30px}
+.awning{position:relative;height:74px;margin:0 -18px;transform-origin:top;animation:roll 1s cubic-bezier(.2,.8,.2,1) .15s both;filter:drop-shadow(0 10px 12px rgba(27,30,43,.18))}
+.awning::before{content:"";position:absolute;inset:0 0 22px;background:repeating-linear-gradient(90deg,var(--sun) 0 52px,#fff 52px 104px);border-radius:8px 8px 0 0}
+.awning::after{content:"";position:absolute;left:0;right:0;bottom:0;height:24px;background:radial-gradient(circle at 26px 0,var(--sun) 25px,transparent 26px) 0 0/104px 24px,radial-gradient(circle at 78px 0,#fff 25px,transparent 26px) 0 0/104px 24px}
+@keyframes roll{from{transform:scaleY(0)}}
+.rail{position:absolute;top:22px;left:-26px;right:-26px;height:10px;background:var(--ink);border-radius:6px}
+.window{background:var(--blue);border-radius:0 0 18px 18px;padding:22px 22px 0;box-shadow:0 30px 60px -30px rgba(27,63,209,.55)}
+.sign{display:inline-block;background:var(--paper);color:var(--blue);font-stretch:125%;font-weight:800;font-size:15px;padding:6px 14px;border-radius:6px;margin-bottom:16px}
+.screen{background:#fff;border-radius:12px 12px 0 0;overflow:hidden;border:4px solid var(--ink);border-bottom:0}
+.bar{display:flex;gap:6px;padding:10px 12px;background:#F2F1EC;border-bottom:1px solid var(--line)}.bar i{width:9px;height:9px;border-radius:50%;background:#D5D3CB}
+.mock{padding:26px 26px 30px;display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center}
+.mock b{display:block;font-stretch:125%;font-size:26px;line-height:1.05;letter-spacing:-.02em}
+.mock p{font-size:13px;color:var(--muted);margin:10px 0 14px}
+.mock .pill{display:inline-block;background:var(--blue);color:#fff;font-size:12px;font-weight:700;padding:7px 14px;border-radius:99px}
+.mock .ph{aspect-ratio:4/5;border-radius:10px;background:linear-gradient(160deg,#9DB4FF,#1B3FD1 70%);position:relative;overflow:hidden}
+.mock .ph::after{content:"";position:absolute;left:18%;right:18%;bottom:0;height:62%;background:#FFC23D;border-radius:60px 60px 0 0;opacity:.9}
+.mock .row{grid-column:1/-1;display:flex;gap:10px}
+.mock .row span{flex:1;height:44px;border-radius:8px;background:var(--sky)}
+.sill{height:16px;background:var(--ink);border-radius:0 0 10px 10px;margin:0 -10px}
+.tag{position:absolute;right:-14px;bottom:56px;background:var(--sun);color:var(--ink);font-weight:800;font-size:14px;padding:10px 14px;border-radius:12px;transform:rotate(4deg);box-shadow:0 10px 24px -10px rgba(27,30,43,.4)}
+
+/* sections */
+section{padding:96px 0}
+.head{max-width:760px;margin-bottom:48px}.head p{margin-top:18px}
+.blue{background:var(--blue);color:#fff}.blue .lede{color:#C9D3FF}
+.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid var(--ink)}
+.svc{padding:32px 32px 8px 0}.svc+.svc{padding-left:32px;border-left:1px solid var(--line)}
+.svc p{color:var(--muted);margin:14px 0 18px}
+.svc ul{list-style:none;padding:0;margin:0;display:grid;gap:8px;font-size:16px}
+.svc li{padding-left:22px;position:relative}.svc li::before{content:"";position:absolute;left:0;top:.6em;width:10px;height:10px;border-radius:50%;background:var(--sun)}
+.svc .from{display:block;margin-top:22px;font-weight:700}
+
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;counter-reset:s}
+.steps li{counter-increment:s;border-top:2px solid rgba(255,255,255,.35);padding-top:20px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--sun);color:var(--ink);font-weight:800;margin-bottom:18px}
+.steps p{color:#C9D3FF;margin-top:10px;font-size:16px}
+.steps small{display:block;margin-top:12px;font-size:14px;color:#fff;font-weight:700}
+
+.work{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:56px;align-items:center}
+.work figure{margin:0;border:4px solid var(--ink);border-radius:16px;overflow:hidden;box-shadow:14px 14px 0 var(--sun)}
+.work figure img{display:block;width:100%;height:auto}
+.work p{color:var(--muted);margin-top:16px}
+.work ul{margin:20px 0 26px;padding-left:20px;color:var(--ink)}
+
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.plan{border:2px solid var(--ink);border-radius:18px;padding:28px;background:#fff;display:flex;flex-direction:column}
+.plan.main{background:var(--sky);border-color:var(--blue)}
+.plan .amt{font-stretch:125%;font-weight:800;font-size:40px;margin:14px 0 2px;letter-spacing:-.02em}.plan .amt span{font-size:16px;font-stretch:100%;font-weight:600;color:var(--muted)}
+.plan p{color:var(--muted);font-size:16px}
+.plan ul{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:9px;font-size:16px}
+.plan li{padding-left:24px;position:relative}.plan li::before{content:"";position:absolute;left:2px;top:.45em;width:12px;height:7px;border-left:2.5px solid var(--blue);border-bottom:2.5px solid var(--blue);transform:rotate(-45deg)}
+.small{font-size:15px;color:var(--muted);margin-top:22px}
+
+.faq{max-width:820px}
+.faq details{border-bottom:1px solid var(--line);padding:20px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:19px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:26px;line-height:1;color:var(--blue);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{color:var(--muted);margin-top:12px;max-width:40em}
+
+.contact{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px}
+form{display:grid;gap:16px;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:28px}
+label{display:grid;gap:6px;font-weight:700;font-size:15px}
+input,select,textarea{font:inherit;font-size:16px;font-weight:400;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px var(--sky)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.contact .mail{margin-top:24px;font-weight:700}.contact .mail a{color:var(--blue)}
+
+.sister{background:var(--ink);color:#fff;border-radius:22px;padding:40px;display:flex;gap:32px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.sister p{color:#B9BCCB;margin-top:10px;max-width:36em}
+.sister .btn{background:#fff;color:var(--ink)}
+
+footer{padding:40px 0 56px;color:var(--muted);font-size:15px}
+footer .wrap{display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap;align-items:center}
+
+@media(max-width:960px){
+ .hero .wrap,.work,.contact{grid-template-columns:minmax(0,1fr)}
+ .shop{max-width:560px}
+ .services,.plans{grid-template-columns:minmax(0,1fr)}
+ .svc,.svc+.svc{padding:28px 0;border-left:0;border-bottom:1px solid var(--line)}
+ .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .hdr nav{display:none}
+}
+@media(max-width:560px){
+ body{font-size:17px}.wrap{padding:0 20px}
+ section{padding:72px 0}.hero{padding:36px 0 72px}
+ .steps,.two{grid-template-columns:minmax(0,1fr)}
+ .awning{margin:0 -8px;height:60px}.rail{left:-12px;right:-12px}
+ .mock{grid-template-columns:1fr;padding:20px}.mock .ph{display:none}
+ .tag{right:-6px}
+ .hdr .btn{padding:9px 16px;font-size:14px}.hdr .wrap{justify-content:space-between}
+}
+@media(prefers-reduced-motion:reduce){.awning{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hdr" id="hdr"><div class="wrap">
+  <a class="logo" href="/"><img src="/assets/favicon.svg" alt="" width="34" height="34">Bright Front</a>
+  <nav aria-label="Main"><a href="#services">Services</a><a href="#work">Work</a><a href="#care">Care plans</a><a href="#faq">FAQ</a></nav>
+  <a class="btn btn-blue" href="#contact">Get a quote</a>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <h1>Your website is your shopfront.</h1>
+    <p class="lede">We design, build and look after websites for Australian small businesses. Fast on every phone, easy to find on Google, and set up to turn visitors into enquiries.</p>
+    <div class="ctas"><a class="btn btn-blue" href="#contact">Get a free quote</a><a class="btn btn-line" href="#work">See our work</a></div>
+    <p class="note">Fixed price, written up front. Most sites are live in two to four weeks.</p>
+  </div>
+  <div class="shop" aria-hidden="true">
+    <div class="rail"></div>
+    <div class="awning"></div>
+    <div class="window">
+      <span class="sign">Open for business</span>
+      <div class="screen">
+        <div class="bar"><i></i><i></i><i></i></div>
+        <div class="mock">
+          <div><b>Same-day plumbing across the bay.</b><p>Licensed, insured and on time. Get a price in minutes.</p><span class="pill">Book a job</span></div>
+          <div class="ph"></div>
+          <div class="row"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="sill"></div>
+    <span class="tag">3 new enquiries today</span>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <div class="head"><h2>What we do</h2><p class="lede">One small team handles the whole thing, from the first sketch to keeping it running years later.</p></div>
+  <div class="services">
+    <article class="svc"><h3>Design and build</h3><p>A custom site that looks like your business, not a template. Written, designed and built for you.</p>
+      <ul><li>Mobile-first design</li><li>Copywriting included</li><li>Quote and booking forms</li><li>Loads in under two seconds</li></ul><span class="from">From $1,990</span></article>
+    <article class="svc"><h3>Care and hosting</h3><p>We keep your site fast, secure and up to date, and make your changes for you. Just email us.</p>
+      <ul><li>Hosting and SSL</li><li>Content edits each month</li><li>Backups and monitoring</li><li>A real person on email</li></ul><span class="from">From $79 a month</span></article>
+    <article class="svc"><h3>Get found on Google</h3><p>The groundwork that gets local customers to your door, done properly from day one.</p>
+      <ul><li>Google Business Profile</li><li>Local search setup</li><li>Speed and technical SEO</li><li>Analytics you can read</li></ul><span class="from">Included in every build</span></article>
+  </div>
+</div></section>
+
+<section class="blue" id="process"><div class="wrap">
+  <div class="head"><h2>How a build works</h2><p class="lede">Clear steps, a fixed price and no surprises.</p></div>
+  <ol class="steps">
+    <li><h3>A quick call</h3><p>Fifteen minutes on what you do, who you serve and what the site needs to achieve.</p><small>Day 1</small></li>
+    <li><h3>Design</h3><p>You see your home page designed with your real words and photos, and we refine it together.</p><small>Week 1</small></li>
+    <li><h3>Build</h3><p>We build every page, connect your forms, bookings and Google, and test on real phones.</p><small>Weeks 2 to 3</small></li>
+    <li><h3>Launch and care</h3><p>We put it live on your domain, then keep it fast, safe and fresh on a care plan.</p><small>Week 3 to 4</small></li>
+  </ol>
+</div></section>
+
+<section id="work"><div class="wrap work">
+  <figure><img src="https://autofice.com.au/assets/og.jpg" alt="Autofice, designed and built by Bright Front" width="1200" height="630" loading="eager"></figure>
+  <div>
+    <h2>Autofice</h2>
+    <p class="lede">An AI admin for small businesses. We designed and built the brand, the website and the customer dashboard.</p>
+    <ul><li>Brand, logo and app icon</li><li>Marketing site with a live product demo</li><li>Customer dashboard that works on any phone</li></ul>
+    <a class="btn btn-line" href="https://autofice.com.au" rel="noopener">Visit autofice.com.au</a>
+  </div>
+</div></section>
+
+<section id="care" style="padding-top:24px"><div class="wrap">
+  <div class="head"><h2>Care plans</h2><p class="lede">Every site we build comes with its first month of care. After that, pick the plan that fits. Month to month, cancel any time.</p></div>
+  <div class="plans">
+    <article class="plan"><h3>Essential</h3><div class="amt">$79<span> a month</span></div><p>For sites that rarely change.</p>
+      <ul><li>Hosting, SSL and backups</li><li>Security and uptime monitoring</li><li>30 minutes of edits a month</li></ul></article>
+    <article class="plan main"><h3>Growth</h3><div class="amt">$149<span> a month</span></div><p>For businesses that keep things fresh.</p>
+      <ul><li>Everything in Essential</li><li>2 hours of edits a month</li><li>Monthly Google and speed report</li><li>Priority replies</li></ul></article>
+    <article class="plan"><h3>Partner</h3><div class="amt">$299<span> a month</span></div><p>For sites that are always growing.</p>
+      <ul><li>Everything in Growth</li><li>5 hours of changes or new pages</li><li>Quarterly design refresh</li><li>Add-on: Tilly from Autofice</li></ul></article>
+  </div>
+  <p class="small">Prices exclude GST. Already have a site somewhere else? We can take it over on a care plan.</p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="sister"><div><h3>Want your website to answer enquiries for you?</h3><p>Our sister company Autofice adds Tilly, an AI admin who replies to every enquiry, call and message in your business’s name.</p></div><a class="btn" href="https://autofice.com.au" rel="noopener">Meet Tilly</a></div>
+</div></section>
+
+<section id="faq" style="padding-top:24px"><div class="wrap"><div class="faq">
+  <h2 style="margin-bottom:24px">Questions</h2>
+  <details><summary>How much does a website cost?</summary><p>Most small business sites are between $1,990 and $4,900, depending on the number of pages and what they need to do, like bookings or quote forms. You get a fixed price in writing before we start.</p></details>
+  <details><summary>How long does it take?</summary><p>Two to four weeks for most sites. The biggest factor is how quickly we get your photos and feedback, and we make that part easy.</p></details>
+  <details><summary>Do I own my website?</summary><p>Yes. Your domain, your content and your site are yours. If you ever leave, we hand everything over.</p></details>
+  <details><summary>Can you write the words?</summary><p>Yes. Copywriting is included. We interview you, then write pages that sound like you and answer what customers actually ask.</p></details>
+  <details><summary>I already have a website. Can you help?</summary><p>Yes. We can refresh it, rebuild it, or simply take over hosting and updates on a care plan.</p></details>
+</div></div></section>
+
+<section id="contact" style="padding-top:24px"><div class="wrap contact">
+  <div>
+    <h2>Get a free quote</h2>
+    <p class="lede" style="margin-top:18px">Tell us a little about your business and what you need. We reply within one business day with next steps and a price range.</p>
+    <p class="mail">Or email <a href="mailto:info@brightfrontstudio.com">info@brightfrontstudio.com</a></p>
+  </div>
+  <form id="q" novalidate>
+    <div class="two"><label>Your name<input name="name" autocomplete="name" required></label><label>Business name<input name="business" autocomplete="organization"></label></div>
+    <div class="two"><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Phone<input name="phone" type="tel" autocomplete="tel"></label></div>
+    <label>What do you need?<select name="need"><option>A new website</option><option>A refresh of my current site</option><option>Care and hosting for my site</option><option>Not sure yet</option></select></label>
+    <label>Anything else we should know?<textarea name="details" rows="4" placeholder="Your current website, what you sell, deadlines…"></textarea></label>
+    <button class="btn btn-blue" type="submit" style="justify-self:start">Send my enquiry</button>
+    <p id="qmsg" class="small" role="status" style="margin:0"></p>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <a class="logo" href="/" style="font-size:18px"><img src="/assets/favicon.svg" alt="" width="28" height="28">Bright Front Studio</a>
+  <span>Websites for Australian small businesses. <a href="mailto:info@brightfrontstudio.com">info@brightfrontstudio.com</a></span>
+  <span>© <span id="y">2026</span> Bright Front Studio</span>
+</div></footer>
+
+<script>
+(function(){
+  var h=document.getElementById('hdr');addEventListener('scroll',function(){h.classList.toggle('s',scrollY>10)},{passive:true});
+  document.getElementById('y').textContent=new Date().getFullYear();
+  var f=document.getElementById('q'),m=document.getElementById('qmsg');
+  f.addEventListener('submit',function(e){e.preventDefault();
+    var d=new FormData(f);if(!d.get('name')||!/^\S+@\S+\.\S+$/.test(d.get('email')||'')){m.textContent='Add your name and a valid email so we can reply.';m.style.color='#B42318';return;}
+    var body=[];d.forEach(function(v,k){if(v)body.push(k.charAt(0).toUpperCase()+k.slice(1)+': '+v)});
+    location.href='mailto:info@brightfrontstudio.com?subject='+encodeURIComponent('Website enquiry from '+d.get('name'))+'&body='+encodeURIComponent(body.join('\n'));
+    m.style.color='';m.textContent='Your email app has opened with your details. Press send and we’ll reply within one business day.';});
+})();
+</script>
+</body>
+</html>
