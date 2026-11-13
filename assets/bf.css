@@ -531,3 +531,14 @@ footer a:hover{color:var(--pink)}
 .qmsg{margin:0;font-weight:600;font-size:14px}
 @media(max-width:860px){.qwrap{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:520px){.q2{grid-template-columns:1fr}}
+
+/* flow v3: one light background, white cards */
+body{background:var(--grey)}
+#process,#plans,#services,#guarantee,#faq,.grey,main section[style*="background:#fff"]{background:var(--grey)!important}
+.plat{background:var(--grey)!important}
+.cta-wrap{background:var(--grey)!important}
+.cv-steps li{background:#fff}
+.addon,.plan{background:#fff}
+#plans,#services,#guarantee,#faq{padding-top:calc(var(--sec)*.35)!important}
+.fsm{background:var(--grey);border-top:1px solid var(--line)}
+.cv-steps li:not(.cv-hot) .cv-n{background:var(--grey)}
