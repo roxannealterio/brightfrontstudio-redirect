@@ -543,3 +543,7 @@ body{background:var(--grey)}
 #process,#plans,#services,#guarantee{padding-bottom:calc(var(--sec)*.75)!important}
 .fsm{background:var(--grey);border-top:1px solid var(--line)}
 .cv-steps li:not(.cv-hot) .cv-n{background:var(--grey)}
+
+/* no scroll-in motion: content is just there */
+.reveal,.reveal.shown{opacity:1!important;transform:none!important;transition:none!important}
+@media(max-width:760px){#process{padding-bottom:40px!important}.cv-cta{margin-top:24px!important}}
