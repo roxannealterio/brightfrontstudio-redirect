@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4DFEJ2QN7S"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4DFEJ2QN7S');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="book.html"],a[href^="tel:"],a[href^="mailto:"]');if(!a)return;var h=a.getAttribute('href');gtag('event',h.indexOf('book.html')>-1?'cta_click':(h.indexOf('tel:')===0?'phone_click':'email_click'),{link_text:(a.textContent||'').trim().slice(0,40),page:location.pathname});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Start Your Custom Website | brightfront</title>
+<meta name="description" content="Start your custom website in two minutes. Answer a few quick questions, then book a free 15-minute call or get a fixed-price website plan by email.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://brightfrontstudio.com/start/">
+<link rel="alternate" hreflang="en-AU" href="https://brightfrontstudio.com/start/">
+<meta property="og:site_name" content="brightfront">
+<meta property="og:locale" content="en_AU">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Start your custom website | brightfront">
+<meta property="og:description" content="Start your custom website in two minutes. Answer a few quick questions, then book a free 15-minute call or get a fixed-price website plan by email.">
+<meta property="og:url" content="https://brightfrontstudio.com/start/">
+<meta property="og:image" content="https://brightfrontstudio.com/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1726">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E1726'/%3E%3Cpath d='M32 10l5.6 16.4L54 32l-16.4 5.6L32 54l-5.6-16.4L10 32l16.4-5.6z' fill='%232F6BFF'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/bf.css">
+<style>
+.statement{position:relative;font-size:clamp(40px,5.6vw,88px);line-height:1.04;font-weight:500;letter-spacing:-.04em;color:#fff;margin:0}
+.rot{display:inline-grid;vertical-align:bottom;overflow:hidden;height:1.06em}
+.rot span{grid-area:1/1;color:var(--pink);font-weight:600;transform:translateY(105%);opacity:0;transition:transform .7s cubic-bezier(.16,.84,.24,1),opacity .5s}
+.rot span.on{transform:none;opacity:1}
+.rot span.out{transform:translateY(-105%);opacity:0}
+.band mark{background:var(--pink);color:#fff;border-radius:.22em;padding:0 .18em}
+.plan-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch}
+@media(max-width:980px){.plan-grid{grid-template-columns:1fr}}
+.plan{background:#fff;border-radius:28px;padding:32px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--line)}
+.plan .tier{font-weight:700;font-size:14px;color:var(--pink)}
+.plan h3{font-size:clamp(28px,2.6vw,36px);font-weight:600;letter-spacing:-.03em}
+.plan > p{color:var(--muted);font-size:16px}
+.plan ul{list-style:none;margin:6px 0 0;padding:16px 0 0;border-top:1px solid var(--line);display:grid;gap:11px;flex:1;align-content:start}
+.plan.pop h3{color:#fff}.plan.pop > p{color:#B8B8D9}.plan.pop ul{border-color:#2E2E66}
+.bk-h1{font-size:clamp(40px,5vw,72px);line-height:1.02;letter-spacing:-.04em;font-weight:300;color:var(--navy);margin:0}.bk-h1 b{font-weight:700}
+/* funnel */
+.funnel{padding:130px 16px 80px;background:var(--grey);min-height:100vh}
+.fn-card{scroll-margin-top:110px;max-width:760px;margin:0 auto;background:#fff;border-radius:36px;padding:40px clamp(22px,5vw,56px) 48px;box-shadow:0 24px 60px rgba(14,23,38,.08)}
+.fn-top{display:flex;align-items:center;gap:16px;margin-bottom:30px;min-height:24px}
+.fn-back{background:none;border:0;font:inherit;font-weight:700;color:var(--muted);cursor:pointer;padding:0;white-space:nowrap}
+.fn-back:hover{color:var(--navy)}
+.fn-prog{flex:1;height:8px;border-radius:9px;background:var(--grey);overflow:hidden}
+.fn-prog i{display:block;height:100%;width:0;background:var(--pink);border-radius:9px;transition:width .5s cubic-bezier(.22,1,.36,1)}
+.fn-step{border:0;margin:0;padding:0;min-width:0;animation:fade .4s ease}
+.fn-step[hidden]{display:none}
+.fn-intro .bk-h1{margin:6px 0 16px}
+.fn-lede{color:var(--muted);font-size:18px;line-height:1.6;margin:0 0 26px;max-width:52ch}
+.fn-intro .bk-points{margin-top:24px}
+.fn-q{font-size:clamp(26px,3vw,36px);font-weight:700;letter-spacing:-.03em;line-height:1.15;color:var(--navy);margin:0 0 8px;padding:0}
+.fn-sub{color:var(--muted);margin:0 0 22px;font-size:16px}
+legend.fn-q{margin-bottom:22px}legend.fn-q + .fn-sub{margin-top:-14px}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:22px}
+.opt{position:relative;cursor:pointer}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:flex;align-items:center;gap:12px;min-height:58px;padding:14px 18px;border:1.5px solid var(--line);border-radius:16px;font-weight:600;color:var(--navy);background:#fff;transition:border-color .2s,background-color .2s,transform .15s}
+.opt span::before{content:"";flex:0 0 20px;height:20px;border-radius:50%;border:2px solid #CBD5E1;transition:all .2s}
+.opt input[type=checkbox] + span::before{border-radius:6px}
+.opt:hover span{border-color:var(--pink)}
+.opt input:checked + span{border-color:var(--pink);background:var(--pink-l)}
+.opt input:checked + span::before{background:var(--pink);border-color:var(--pink);box-shadow:inset 0 0 0 3px #fff}
+.opt input:focus-visible + span{outline:3px solid var(--pink);outline-offset:2px}
+.opt-big span{flex-direction:column;justify-content:center;text-align:center;min-height:150px;font-size:18px}
+.opt-big span::before{display:none}
+.opt-big em{font-style:normal;font-size:44px;line-height:1;margin-bottom:6px}
+.fn-card .booker{box-shadow:none;padding:0;min-height:0;margin-top:8px}
+#fnContact .fields{margin-bottom:20px}
+.fn-thanks{text-align:center;padding:20px 0}
+.fn-thanks .tickbig{margin:0 auto 18px}
+.fn-thanks a{color:var(--pink-d);font-weight:700}
+@media(max-width:600px){.opts{grid-template-columns:1fr}.funnel{padding-top:104px}.fn-card{border-radius:28px}.opt-big span{min-height:120px}}
+.fn-intro .live{display:inline-flex;background:var(--pink-l);color:var(--pink-d);border-radius:999px;padding:7px 14px;font-weight:700;font-size:14px;margin-bottom:14px}
+.fn-kicker{font-size:14px;font-weight:700;color:var(--pink-d);margin:0 0 10px}
+.fn-input{height:60px;font-size:18px;margin-bottom:18px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.oi{display:inline-flex;gap:3px;flex:0 0 auto}.ol{width:20px;height:20px}
+.opt input[type=checkbox] + span::before{order:0}
+.fn-step .fn-next{margin-top:2px}
+.fn-kick{margin:0 0 10px;font-weight:700;color:var(--pink);font-size:15px}
+.oi{display:none}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://brightfrontstudio.com/start/", "url": "https://brightfrontstudio.com/start/", "name": "Start your website", "description": "Start your custom website in two minutes. Answer a few quick questions, then book a free 15-minute call or get a fixed-price website plan by email.", "isPartOf": {"@id": "https://brightfrontstudio.com/#site"}, "inLanguage": "en-AU"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://brightfrontstudio.com/"}, {"@type": "ListItem", "position": 2, "name": "Start your website", "item": "https://brightfrontstudio.com/start/"}]}]}</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="bmark" viewBox="0 0 64 74"><path fill-rule="evenodd" d="M26.5 21H37.5A26.5 26.5 0 0 1 37.5 74H26.5A26.5 26.5 0 0 1 26.5 21ZM28.5 36H37.5A11.5 11.5 0 0 1 37.5 59H28.5A11.5 11.5 0 0 1 28.5 36Z" fill="#2F6BFF"/><rect width="17" height="74" fill="currentColor"/></symbol>
+  <symbol id="ck" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path d="m12 2 2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z" fill="currentColor"/></symbol>
+  <symbol id="arr" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-dumb" viewBox="0 0 24 24"><path d="M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M14 9l2 2"/></g></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-brief" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></g></symbol>
+  <symbol id="i-cup" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/></g></symbol>
+</svg>
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr" id="hdr">
+  <div class="bar">
+    <a class="wm" href="/" aria-label="brightfront home">br<span class="i">ı</span>ghtfront</a>
+    <nav class="nav" aria-label="Main"><a href="/#services">Services</a><a href="/#process">How it works</a><a href="/#plans">Plans</a><a href="/#about">Why us</a><a href="/#faq">FAQ</a><a href="/#contact">Get a quote</a></nav>
+    <div class="right">
+      <a class="circ" href="mailto:info@brightfrontstudio.com" aria-label="Email us"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 8 9 6 9-6"/></svg></a>
+      <a class="btn btn-pink" href="#start">Get a quote</a>
+      <button class="circ burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Mobile"><a href="/#services">Services</a><a href="/#process">How it works</a><a href="/#plans">Plans</a><a href="/#about">Why us</a><a href="/#faq">FAQ</a><a href="#start">Get a quote</a></nav>
+</header>
+<main id="top">
+<section class="funnel bookpage" id="main">
+  <div class="fn-card" id="start" aria-live="polite">
+    <div class="fn-top"><button type="button" class="fn-back" id="fnBack" hidden>← Back</button><div class="fn-prog" aria-hidden="true"><i id="fnBar"></i></div></div>
+
+      <form class="fn-step" data-step="1" data-name="website" id="fnWeb" novalidate>
+      <p class="fn-kicker">Start your custom website · takes about 2 minutes</p>
+      <h1 class="fn-q">What’s your current website?</h1>
+      <p class="fn-sub">We’ll look it over before we plan your new site. No website yet? Add your Instagram, Facebook or just your business name.</p>
+      <label class="sr" for="fnWebIn">Website or social profile</label>
+      <input class="field fn-input" id="fnWebIn" name="website" placeholder="yourbusiness.com.au" autocomplete="url" required>
+      <button type="submit" class="btn btn-pink">Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+    </form>
+
+    <fieldset class="fn-step" data-step="2" data-name="need" data-multi hidden>
+        <legend class="fn-q">What do you need?</legend><p class="fn-sub">Select all that apply.</p>
+        <div class="opts" role="group"><label class="opt"><input type="checkbox" name="need" value="A brand new website"><span>A brand new website</span></label><label class="opt"><input type="checkbox" name="need" value="A redesign of my current site"><span>A redesign of my current site</span></label><label class="opt"><input type="checkbox" name="need" value="An online store"><span>An online store</span></label><label class="opt"><input type="checkbox" name="need" value="Online bookings"><span>Online bookings</span></label><label class="opt"><input type="checkbox" name="need" value="Show up on Google"><span>Show up on Google</span></label><label class="opt"><input type="checkbox" name="need" value="Hosting and care"><span>Hosting and care</span></label><label class="opt"><input type="checkbox" name="need" value="A landing page for ads"><span>A landing page for ads</span></label><label class="opt"><input type="checkbox" name="need" value="Not sure yet"><span>Not sure yet</span></label></div>
+        <button type="button" class="btn btn-pink fn-next" disabled>Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </fieldset>
+      <fieldset class="fn-step" data-step="3" data-name="business" hidden>
+        <legend class="fn-q">What best describes your business?</legend>
+        <div class="opts" role="group"><label class="opt"><input type="radio" name="business" value="Real estate"><span>Real estate</span></label><label class="opt"><input type="radio" name="business" value="Fitness coach or studio"><span>Fitness coach or studio</span></label><label class="opt"><input type="radio" name="business" value="Mortgage or finance broker"><span>Mortgage or finance broker</span></label><label class="opt"><input type="radio" name="business" value="Car dealer or car sales"><span>Car dealer or car sales</span></label><label class="opt"><input type="radio" name="business" value="E-commerce brand"><span>E-commerce brand</span></label><label class="opt"><input type="radio" name="business" value="Beauty or aesthetics clinic"><span>Beauty or aesthetics clinic</span></label><label class="opt"><input type="radio" name="business" value="Trades or home services"><span>Trades or home services</span></label><label class="opt"><input type="radio" name="business" value="Hospitality"><span>Café, restaurant or bar</span></label><label class="opt"><input type="radio" name="business" value="Childcare, school or classes"><span>Childcare, school or classes</span></label><label class="opt"><input type="radio" name="business" value="Something else"><span>Something else</span></label></div>
+        
+        <button type="button" class="btn btn-pink fn-next" disabled>Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </fieldset>
+      <fieldset class="fn-step" data-step="4" data-name="connect" data-multi hidden>
+        <legend class="fn-q">What should your website connect to?</legend><p class="fn-sub">We’ll set these up for you. Select all that apply.</p>
+        <div class="opts" role="group"><label class="opt"><input type="checkbox" name="connect" value="Online booking system"><span>Online booking system</span></label><label class="opt"><input type="checkbox" name="connect" value="Online ordering or delivery"><span>Online ordering or delivery</span></label><label class="opt"><input type="checkbox" name="connect" value="Payments (Stripe, Square)"><span>Payments (Stripe, Square)</span></label><label class="opt"><input type="checkbox" name="connect" value="Shopify store"><span>Shopify store</span></label><label class="opt"><input type="checkbox" name="connect" value="Xero or MYOB"><span>Xero or MYOB</span></label><label class="opt"><input type="checkbox" name="connect" value="Google Business Profile"><span>Google Business Profile</span></label><label class="opt"><input type="checkbox" name="connect" value="Instagram feed"><span>Instagram feed</span></label><label class="opt"><input type="checkbox" name="connect" value="Email marketing"><span>Email marketing</span></label><label class="opt"><input type="checkbox" name="connect" value="My CRM"><span>My CRM</span></label><label class="opt"><input type="checkbox" name="connect" value="AI replies with Autofice"><span>AI replies with Autofice</span></label><label class="opt"><input type="checkbox" name="connect" value="Not sure yet"><span>Not sure yet</span></label></div>
+        <button type="button" class="btn btn-pink fn-next" disabled>Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </fieldset>
+      <fieldset class="fn-step" data-step="5" data-name="budget" hidden>
+        <legend class="fn-q">What’s your budget for the website?</legend><p class="fn-sub">A rough idea helps us recommend the right plan.</p>
+        <div class="opts" role="group"><label class="opt"><input type="radio" name="budget" value="Under $2,000"><span>Under $2,000</span></label><label class="opt"><input type="radio" name="budget" value="$2,000 to $5,000"><span>$2,000 to $5,000</span></label><label class="opt"><input type="radio" name="budget" value="$5,000 to $10,000"><span>$5,000 to $10,000</span></label><label class="opt"><input type="radio" name="budget" value="$10,000+"><span>$10,000+</span></label><label class="opt"><input type="radio" name="budget" value="Not sure yet"><span>Not sure yet</span></label></div>
+        <button type="button" class="btn btn-pink fn-next" disabled>Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </fieldset>
+      <fieldset class="fn-step" data-step="6" data-name="start" hidden>
+        <legend class="fn-q">When do you want to get started?</legend>
+        <div class="opts" role="group"><label class="opt"><input type="radio" name="start" value="As soon as possible"><span>As soon as possible</span></label><label class="opt"><input type="radio" name="start" value="Within the next month"><span>Within the next month</span></label><label class="opt"><input type="radio" name="start" value="In 1 to 3 months"><span>In 1 to 3 months</span></label><label class="opt"><input type="radio" name="start" value="Just looking for now"><span>Just looking for now</span></label></div>
+        
+        <button type="button" class="btn btn-pink fn-next" disabled>Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </fieldset>
+
+      <fieldset class="fn-step" data-step="7" data-name="showup" hidden>
+        <legend class="fn-q">If we book a free 15-minute website call, will you be there at that time?</legend>
+        <div class="opts opts-2" role="group">
+          <label class="opt opt-big"><input type="radio" name="showup" value="Can’t promise"><span><em aria-hidden="true">😕</em>Can’t promise anything</span></label>
+          <label class="opt opt-big"><input type="radio" name="showup" value="Absolutely"><span><em aria-hidden="true">🙌</em>Absolutely</span></label>
+        </div>
+        <button type="button" class="btn btn-pink fn-next" disabled>Next <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </fieldset>
+
+    <div class="fn-step" data-step="8" id="fnBook" hidden>
+      <h2 class="fn-q">Great. Pick a time for your free website call.</h2>
+      <p class="fn-sub">15 minutes on Zoom or phone. All times are Brisbane time.</p>
+    <div class="booker" id="booker" aria-live="polite">
+      <div class="bk-steps" aria-hidden="true"><span class="on">Date</span><span>Time</span><span>Your details</span></div>
+
+      <!-- step 1: calendar -->
+      <div class="bk-pane" id="bkDate">
+        <div class="cal-head">
+          <button type="button" class="cal-nav" id="calPrev" aria-label="Previous month"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <b id="calMonth"></b>
+          <button type="button" class="cal-nav" id="calNext" aria-label="Next month"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+        <div class="cal-dow" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        <div class="cal-grid" id="calGrid" role="grid" aria-label="Choose a date"></div>
+        <p class="bk-note">All times are Brisbane time (AEST).</p>
+      </div>
+
+      <!-- step 2: times -->
+      <div class="bk-pane" id="bkTime" hidden>
+        <button type="button" class="bk-back" data-go="date">← Change date</button>
+        <h3 id="timeTitle"></h3>
+        <div class="slots" id="slots"></div>
+      </div>
+
+      <!-- step 3: details -->
+      <form class="bk-pane" id="bkForm" hidden novalidate>
+        <button type="button" class="bk-back" data-go="time">← Change time</button>
+        <div class="bk-summary" id="bkSummary"></div>
+        <input type="hidden" name="_subject" value="New website call booking (brightfront)"><input type="hidden" name="date" id="fDate"><input type="hidden" name="time" id="fTime">
+        <div class="fields">
+          <label>Full name<input class="field" name="name" autocomplete="name" required></label>
+          <label>Mobile<input class="field" name="phone" type="tel" autocomplete="tel" required></label>
+          <label>Email<input class="field" name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <label class="lab">Call by<select class="field" name="via"><option>Zoom</option><option>Phone</option></select></label>
+        <button class="btn btn-pink" type="submit">Confirm booking <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+      </form>
+
+      <!-- done -->
+      <div class="bk-pane bk-done" id="bkDone" hidden>
+        <span class="tickbig"><svg width="30" height="30"><use href="#ck"/></svg></span>
+        <h3>Request received.</h3>
+        <p id="doneText"></p>
+        <p style="margin:6px 0 2px;font-weight:700">Add it to your calendar</p>
+        <div class="cal-btns" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+          <a class="btn btn-navy" id="gcalLink" target="_blank" rel="noopener">Google Calendar</a>
+          <a class="btn btn-navy" id="icsLink" download="brightfront-website-call.ics">Apple Calendar</a>
+          <a class="btn btn-navy" id="olLink" target="_blank" rel="noopener">Outlook</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <form class="fn-step" data-step="9" id="fnContact" novalidate hidden>
+      <input type="hidden" name="_subject" value="New website plan request (brightfront)">
+      <h2 class="fn-q">Where should we send your website plan?</h2>
+      <p class="fn-sub">A short plan with what we’d build and a fixed price, within one business day.</p>
+      <div class="fields">
+        <label>Full name<input class="field" name="name" autocomplete="name" required></label>
+        <label>Email<input class="field" name="email" type="email" autocomplete="email" required></label>
+        <label>Mobile<input class="field" name="phone" type="tel" autocomplete="tel"></label>
+      </div>
+      <button class="btn btn-pink" type="submit">Send my website plan <svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>
+    </form>
+
+    <div class="fn-step fn-thanks" data-step="10" hidden>
+      <span class="tickbig"><svg width="30" height="30"><use href="#ck"/></svg></span>
+      <h2 class="fn-q">Help is on the way.</h2>
+      <p class="fn-sub" id="fnThanksText">We’ll be in touch within one business day. Prefer to talk now? Email <a href="mailto:info@brightfrontstudio.com">info@brightfrontstudio.com</a>.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="fsm">
+  <div class="wrap fsm-in">
+    <a class="wm" href="/" aria-label="brightfront home">br<span class="i">ı</span>ghtfront</a>
+    <nav class="fsm-nav" aria-label="Footer"><a href="/#services">Services</a><a href="/#process">How it works</a><a href="/#plans">Plans</a><a href="/#faq">FAQ</a><a href="/#contact">Get a quote</a><a href="/websites/trades/">Trades</a><a href="/websites/hospitality/">Hospitality</a><a href="/websites/beauty/">Beauty</a><a href="/websites/ecommerce/">Shopify</a><a href="https://autofice.com.au">Autofice</a><a href="mailto:info@brightfrontstudio.com">info@brightfrontstudio.com</a></nav>
+    <span class="fsm-bot"><span>© <span id="yr">2026</span> brightfront</span></span>
+  </div>
+</footer>
+<script>
+/* ===== SETTINGS: fill these in before going live ===== */
+var FORM_ENDPOINT = "https://formspree.io/f/mwlvvozo";  // e.g. "https://formspree.io/f/xxxxxxx" so bookings are emailed to you. Empty = shows the confirmation only.
+
+var AI_HOOK = "";
+/* ===================================================== */
+var SERVICES = [];
+(function () {
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  document.querySelectorAll('.mo').forEach(function (e) { e.textContent = new Date().toLocaleDateString('en-AU', { month: 'long' }); });
+
+  var burger = document.getElementById('burger'), mnav = document.getElementById('mnav');
+  function setMenu(o) { mnav.classList.toggle('open', o); document.body.classList.toggle('menu-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Close menu' : 'Open menu'); burger.querySelector('svg').innerHTML = o ? '<path d="M6 6l12 12M18 6L6 18"/>' : '<path d="M4 8h16M4 16h16"/>'; }
+  burger.addEventListener('click', function () { setMenu(!mnav.classList.contains('open')); });
+  mnav.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+  matchMedia('(min-width:1061px)').addEventListener('change', function (m) { if (m.matches) setMenu(false); });
+
+  // rotating hero word
+  var words = document.querySelectorAll('#rot span'), wi = 0;
+  if (!reduce && words.length) setInterval(function () {
+    var cur = words[wi]; cur.classList.remove('on'); cur.classList.add('out');
+    wi = (wi + 1) % words.length; var nx = words[wi]; nx.classList.remove('out'); void nx.offsetWidth; nx.classList.add('on');
+    setTimeout(function () { cur.classList.remove('out'); }, 700);
+  }, 2600);
+
+  // hero card rail arrows
+  var cr = document.getElementById('crail');
+  if (cr) {
+  function cstep(d) { var w = cr.firstElementChild.getBoundingClientRect().width + 18; var end = cr.scrollLeft + cr.clientWidth >= cr.scrollWidth - 4; var start = cr.scrollLeft <= 4; cr.scrollTo({ left: d > 0 ? (end ? 0 : cr.scrollLeft + w) : (start ? cr.scrollWidth : cr.scrollLeft - w), behavior: reduce ? 'auto' : 'smooth' }); }
+  document.getElementById('cPrev').addEventListener('click', function () { cstep(-1); });
+  document.getElementById('cNext').addEventListener('click', function () { cstep(1); });
+  }
+
+  // reveal
+  var rv = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !reduce) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('shown'); io.unobserve(e.target); } }); }, { threshold: .1, rootMargin: '0px 0px -40px 0px' });
+    rv.forEach(function (el) { io.observe(el); });
+  } else rv.forEach(function (el) { el.classList.add('shown'); });
+
+  // count-up
+  var cEl = document.getElementById('count');
+  if (cEl && !reduce && 'IntersectionObserver' in window) {
+    cEl.textContent = '0';
+    var co = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return; co.disconnect();
+      var t0 = performance.now();
+      (function step(n) { var p = Math.min(1, (n - t0) / 1400); cEl.textContent = Math.round(40 * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); })(t0);
+    }, { threshold: .5 });
+    co.observe(cEl);
+  }
+
+  // service tabs
+  var sl = document.getElementById('slist'), sp = document.getElementById('spanel');
+  if (sl) {
+  var ck = '<svg width="16" height="16"><use href="#ck"/></svg>';
+  sl.innerHTML = SERVICES.map(function (s, i) { return '<button role="tab" aria-selected="' + (i === 0) + '" data-i="' + i + '">' + s.name + '<svg class="ar" width="18" height="18"><use href="#arr"/></svg></button>'; }).join('');
+  function showS(i) {
+    var s = SERVICES[i];
+    sl.querySelectorAll('button').forEach(function (b, k) { b.setAttribute('aria-selected', k === i ? 'true' : 'false'); });
+    sp.innerHTML = '<div class="inner">' + (s.flag ? '<span class="flag">' + s.flag + '</span>' : '') + '<h3>' + s.name + '</h3><p>' + s.desc + '</p><ul>' + s.items.map(function (x) { return '<li>' + ck + x + '</li>'; }).join('') + '</ul><a class="btn btn-pink" href="#start">Get started <svg class="ar" width="18" height="18"><use href="#arr"/></svg></a></div>';
+  }
+  sl.addEventListener('click', function (e) { var b = e.target.closest('button'); if (b) showS(+b.dataset.i); });
+  showS(0);
+  }
+
+  // swipe rails auto-advance on mobile
+  document.querySelectorAll('[data-auto]').forEach(function (rail) {
+    var p = false, tm;
+    ['pointerenter', 'touchstart', 'focusin'].forEach(function (ev) { rail.addEventListener(ev, function () { p = true; clearTimeout(tm); tm = setTimeout(function () { p = false; }, 6000); }, { passive: true }); });
+    if (reduce) return;
+    setInterval(function () {
+      if (p || document.hidden || rail.scrollWidth <= rail.clientWidth + 4) return;
+      var step = rail.firstElementChild.getBoundingClientRect().width + 16;
+      var end = rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 4;
+      rail.scrollTo({ left: end ? 0 : rail.scrollLeft + step, behavior: 'smooth' });
+    }, +rail.dataset.auto);
+  });
+
+  // forms
+  function valid(f) { var bad = Array.prototype.find.call(f.querySelectorAll('[required]'), function (i) { return !i.checkValidity(); }); if (bad) { bad.reportValidity ? bad.reportValidity() : bad.focus(); return false; } return true; }
+  function toAI(f) {
+    if (!AI_HOOK) return;
+    var o = {}; new FormData(f).forEach(function (v, k) { if (v && k.charAt(0) !== '_') o[k] = String(v).slice(0, 1000); });
+    o.page = location.pathname;
+    try { fetch(AI_HOOK, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o), keepalive: true }).catch(function () {}); } catch (e) {}
+  }
+  function send(f, done, label) {
+    if (!FORM_ENDPOINT) { var body = []; new FormData(f).forEach(function (v, k) { if (v) body.push(k + ': ' + v); }); location.href = 'mailto:info@brightfrontstudio.com?subject=' + encodeURIComponent('Website call request') + '&body=' + encodeURIComponent(body.join('\n')); done(true); return; }
+    var b = f.querySelector('[type=submit]'); b.disabled = true; b.textContent = 'Sending…';
+    fetch(FORM_ENDPOINT, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
+      .then(function (r) { if (!r.ok) throw 0; toAI(f); done(); })
+      .catch(function () { b.disabled = false; b.textContent = label; var p = f.querySelector('.err') || document.createElement('p'); p.className = 'err'; p.style.color = '#B42318'; p.style.fontWeight = '600'; p.textContent = 'Your request didn’t send. Check your connection and try again, or email info@brightfrontstudio.com.'; f.appendChild(p); });
+  }
+
+
+  // ===== Booking calendar =====
+  if (document.getElementById('booker')) (function () {
+    var START_HOUR = 9, END_HOUR = 17, SLOT_MIN = 30, DAYS_AHEAD = 45, WORKDAYS = [1,2,3,4,5]; // Mon–Fri, Brisbane time
+    var steps = document.querySelectorAll('.bk-steps span');
+    var paneDate = document.getElementById('bkDate'), paneTime = document.getElementById('bkTime'), form = document.getElementById('bkForm'), done = document.getElementById('bkDone');
+    var grid = document.getElementById('calGrid'), monthEl = document.getElementById('calMonth'), prev = document.getElementById('calPrev'), next = document.getElementById('calNext');
+    var today = new Date(); today.setHours(0,0,0,0);
+    var last = new Date(today); last.setDate(last.getDate() + DAYS_AHEAD);
+    var view = new Date(today.getFullYear(), today.getMonth(), 1), picked = null, pickedTime = null;
+    var fmtLong = { weekday: 'long', day: 'numeric', month: 'long' };
+    function step(n) {
+      [paneDate, paneTime, form, done].forEach(function (p, i) { p.hidden = i !== n; });
+      steps.forEach(function (sp, i) { sp.className = i < n ? 'done' : (i === n ? 'on' : ''); });
+    }
+    function bookable(d) { return d > today && d <= last && WORKDAYS.indexOf(d.getDay()) > -1; }
+    function render() {
+      monthEl.textContent = view.toLocaleDateString('en-AU', { month: 'long', year: 'numeric' });
+      grid.innerHTML = '';
+      var first = (new Date(view.getFullYear(), view.getMonth(), 1).getDay() + 6) % 7;
+      for (var i = 0; i < first; i++) { var bl = document.createElement('span'); bl.className = 'blank'; grid.appendChild(bl); }
+      var dim = new Date(view.getFullYear(), view.getMonth() + 1, 0).getDate();
+      for (var d = 1; d <= dim; d++) {
+        var date = new Date(view.getFullYear(), view.getMonth(), d), b = document.createElement('button');
+        b.type = 'button'; b.textContent = d; b.setAttribute('aria-label', date.toLocaleDateString('en-AU', fmtLong));
+        if (date.getTime() === today.getTime()) b.className = 'today';
+        if (!bookable(date)) b.disabled = true;
+        else (function (dt) { b.addEventListener('click', function () { picked = dt; showTimes(); }); })(date);
+        grid.appendChild(b);
+      }
+      prev.disabled = view <= new Date(today.getFullYear(), today.getMonth(), 1);
+      next.disabled = new Date(view.getFullYear(), view.getMonth() + 1, 1) > last;
+    }
+    // Brisbane is UTC+10 all year: build the real moment of a slot regardless of the visitor's timezone
+    function bne(d, h, mi) { return new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate(), h - 10, mi)); }
+    function ymd(d) { return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
+    function seeded(n) { var x = Math.sin(n) * 10000; return x - Math.floor(x); }
+    function showTimes() {
+      document.getElementById('timeTitle').textContent = picked.toLocaleDateString('en-AU', fmtLong);
+      var box = document.getElementById('slots'); box.innerHTML = '';
+      for (var m = START_HOUR * 60; m < END_HOUR * 60; m += SLOT_MIN) {
+        var h = Math.floor(m / 60), mi = m % 60, label = ((h + 11) % 12 + 1) + ':' + (mi < 10 ? '0' : '') + mi + (h < 12 ? 'am' : 'pm');
+        var b = document.createElement('button'); b.type = 'button'; b.textContent = label;
+        var slotAt = bne(picked, h, mi);
+        if (slotAt.getTime() < Date.now() + 2 * 3600000) { b.disabled = true; b.setAttribute('aria-label', label + ', unavailable'); }
+        else (function (lab) { b.addEventListener('click', function () { pickedTime = lab; showForm(); }); })(label);
+        box.appendChild(b);
+      }
+      step(1);
+    }
+    function showForm() {
+      var dl = picked.toLocaleDateString('en-AU', fmtLong);
+      document.getElementById('bkSummary').innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>' + dl + ' <span>at ' + pickedTime + '</span>';
+      document.getElementById('fDate').value = ymd(picked);
+      form.querySelector('[name=_subject]').value = 'New strategy call booking: ' + dl + ', ' + pickedTime + ' Brisbane time';
+      document.getElementById('fTime').value = pickedTime;
+      step(2); form.querySelector('[name=name]').focus();
+    }
+    function callTimes() {
+      var t = pickedTime.match(/(\d+):(\d+)(am|pm)/), h = (+t[1] % 12) + (t[3] === 'pm' ? 12 : 0);
+      var st = bne(picked, h, +t[2]); var en = new Date(st.getTime() + 15 * 60000);
+      var f = function (d) { return d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''); };
+      return { st: f(st), en: f(en) };
+    }
+    var CAL_TITLE = 'brightfront website call', CAL_DESC = 'Your free 15-minute website call with brightfront. We will email your call link. Questions: info@brightfrontstudio.com';
+    function ics() {
+      var c = callTimes();
+      var body = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//brightfront//booking//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', 'BEGIN:VEVENT',
+        'UID:' + c.st + '-' + Math.random().toString(36).slice(2) + '@brightfrontstudio.com', 'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''),
+        'DTSTART:' + c.st, 'DTEND:' + c.en, 'SUMMARY:' + CAL_TITLE, 'DESCRIPTION:' + CAL_DESC, 'ORGANIZER;CN=brightfront:mailto:info@brightfrontstudio.com',
+        'BEGIN:VALARM', 'TRIGGER:-PT15M', 'ACTION:DISPLAY', 'DESCRIPTION:' + CAL_TITLE, 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+      return URL.createObjectURL(new Blob([body], { type: 'text/calendar;charset=utf-8' }));
+    }
+    function gcal() {
+      var c = callTimes();
+      return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(CAL_TITLE) + '&dates=' + c.st + '/' + c.en + '&details=' + encodeURIComponent(CAL_DESC);
+    }
+    function outlook() {
+      var t = pickedTime.match(/(\d+):(\d+)(am|pm)/), h = (+t[1] % 12) + (t[3] === 'pm' ? 12 : 0);
+      var st = bne(picked, h, +t[2]); var en = new Date(st.getTime() + 15 * 60000);
+      return 'https://outlook.live.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=' + encodeURIComponent(CAL_TITLE) + '&startdt=' + encodeURIComponent(st.toISOString()) + '&enddt=' + encodeURIComponent(en.toISOString()) + '&body=' + encodeURIComponent(CAL_DESC);
+    }
+    prev.addEventListener('click', function () { view.setMonth(view.getMonth() - 1); render(); });
+    next.addEventListener('click', function () { view.setMonth(view.getMonth() + 1); render(); });
+    document.querySelectorAll('.bk-back').forEach(function (b) { b.addEventListener('click', function () { step(b.dataset.go === 'date' ? 0 : 1); }); });
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); if (!valid(form)) return;
+      send(form, function (viaMail) {
+        var when = picked.toLocaleDateString('en-AU', fmtLong) + ' at ' + pickedTime + ' (Brisbane time)';
+        document.getElementById('doneText').textContent = viaMail ? 'Your email app has opened with your request for ' + when + '. Press send and we’ll confirm your call.' : 'You’ve requested ' + when + '. We’ll email you to confirm, with a call link.';
+        document.getElementById('icsLink').href = ics(); document.getElementById('gcalLink').href = gcal(); document.getElementById('olLink').href = outlook();
+        step(3);
+      }, 'Confirm booking');
+    });
+    render(); step(0);
+  })();
+
+
+  // ===== Qualifying funnel =====
+  (function () {
+    var card = document.querySelector('.fn-card'); if (!card) return;
+    var steps = [].slice.call(card.querySelectorAll('.fn-step')), bar = document.getElementById('fnBar'), back = document.getElementById('fnBack');
+    var answers = {}, hist = [], cur = 1, TOTAL_Q = 7;
+    function show(n, push) {
+      if (push !== false) hist.push(cur);
+      cur = n;
+      steps.forEach(function (s) { s.hidden = +s.dataset.step !== n; });
+      bar.style.width = Math.min(100, Math.round((Math.min(n, TOTAL_Q + 1)) / (TOTAL_Q + 1) * 100)) + '%';
+      back.hidden = n === 1 || n === 10;
+      var q = card.querySelector('.fn-step[data-step="' + n + '"] .fn-q'); if (q && n > 1) { q.setAttribute('tabindex', '-1'); q.focus({ preventScroll: true }); }
+      window.scrollTo({ top: 0, behavior: 'smooth' }); try { card.scrollIntoView({ block: 'start', behavior: 'smooth' }); } catch (e) {}
+    }
+    var web = document.getElementById('fnWeb');
+    web.addEventListener('submit', function (e) { e.preventDefault(); var v = web.querySelector('input').value.trim(); if (!v) { web.querySelector('input').reportValidity(); return; } answers.website = v; show(2); });
+    bar.style.width = Math.round(1 / (TOTAL_Q + 1) * 100) + '%';
+    back.addEventListener('click', function () { if (hist.length) show(hist.pop(), false); });
+    card.querySelectorAll('fieldset.fn-step').forEach(function (fs) {
+      var n = +fs.dataset.step, name = fs.dataset.name, multi = fs.hasAttribute('data-multi'), next = fs.querySelector('.fn-next');
+      fs.addEventListener('change', function () {
+        var vals = [].slice.call(fs.querySelectorAll('input:checked')).map(function (i) { return i.value; });
+        answers[name] = vals.join(', ');
+        next.disabled = !vals.length;
+      });
+      next.addEventListener('click', function () {
+        if (name !== 'showup') return show(n + 1);
+        var small = answers.budget === 'Under $2,000', q9 = document.querySelector('#fnContact .fn-q');
+        if (q9) q9.textContent = small ? 'Thanks! Where should we send your website plan?' : 'No problem. Where should we send your website plan?';
+        show(answers.showup === 'Absolutely' && !small ? 8 : 9);
+      });
+    });
+    function addAnswers(form) {
+      form.querySelectorAll('input[data-q]').forEach(function (i) { i.remove(); });
+      Object.keys(answers).forEach(function (k) { var i = document.createElement('input'); i.type = 'hidden'; i.name = k; i.value = answers[k]; i.setAttribute('data-q', ''); form.appendChild(i); });
+    }
+    var bk = document.getElementById('bkForm');
+    if (bk) bk.addEventListener('submit', function () { addAnswers(bk); }, true);
+    var ct = document.getElementById('fnContact');
+    ct.addEventListener('submit', function (e) {
+      e.preventDefault(); addAnswers(ct); if (!valid(ct)) return;
+      send(ct, function (viaMail) {
+        document.getElementById('fnThanksText').innerHTML = viaMail ? 'Your email app has opened with your answers. Press send and we’ll reply within one business day.' : 'We’ll email your website plan within one business day. Prefer to talk now? Email <a href="mailto:info@brightfrontstudio.com">info@brightfrontstudio.com</a>.';
+        show(10);
+      }, 'Send my growth plan');
+    });
+  })();
+
+  var ds = document.querySelectorAll('.faq details');
+  ds.forEach(function (d) { d.addEventListener('toggle', function () { if (d.open) ds.forEach(function (o) { if (o !== d) o.open = false; }); }); });
+})();
+</script>
+<script>
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+window.addEventListener('load', function () { if (!location.hash || location.hash === '#start') { window.scrollTo(0, 0); var t = document.getElementById('top'); if (t && t.scrollIntoView) t.scrollIntoView({ block: 'start' }); } });
+</script>
+</body>
+</html>

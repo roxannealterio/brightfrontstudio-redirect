@@ -62,7 +62,7 @@ h3{font-size:22px;line-height:1.25;font-weight:700;letter-spacing:-.01em}
 /* mobile header v2 */
 @media(max-width:1060px){.bar .btn{display:inline-flex;min-height:40px;padding:0 16px;font-size:13px;white-space:nowrap}}
 @media(max-width:440px){.bar .circ[href^="mailto"]{display:none}.bar .wm{font-size:24px}}
-@media(max-width:900px){.mnav{position:fixed;left:10px;right:10px;top:calc(env(safe-area-inset-top,0px) + 76px);bottom:calc(env(safe-area-inset-bottom,0px) + 10px);max-width:none;margin:0;border-radius:22px;padding:12px 24px calc(32px + env(safe-area-inset-bottom,0px));overflow-y:auto;overscroll-behavior:contain;}.mnav a:last-child{margin-top:20px;background:#1D4ED8;border-radius:999px;text-align:center;font-size:18px;font-weight:600;padding:16px}}
+@media(max-width:900px){.mnav{position:fixed;left:10px;right:10px;top:calc(env(safe-area-inset-top,0px) + 76px);bottom:auto;max-height:calc(100dvh - 96px);max-width:none;margin:0;border-radius:22px;padding:8px 22px 18px;overflow-y:auto;overscroll-behavior:contain;}.mnav a:last-child{margin-top:20px;background:#1D4ED8;border-radius:999px;text-align:center;font-size:18px;font-weight:600;padding:16px}}
 body.menu-open{overflow:hidden}
 
 /* hero */
